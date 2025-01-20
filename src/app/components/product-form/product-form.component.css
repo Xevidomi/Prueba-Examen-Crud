@@ -1,0 +1,16 @@
+/* src/app/components/product-form/product-form.component.css */
+
+.product-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  

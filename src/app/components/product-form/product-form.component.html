@@ -1,0 +1,44 @@
+<div class="product-form">
+    <h2>Agregar Producto</h2>
+  
+    <!-- Formulario para crear o editar un producto -->
+    <form (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="nombre">Nombre del Producto:</label>
+        <input 
+          type="text" 
+          id="nombre" 
+          name="nombre" 
+          [(ngModel)]="product.nombre" 
+          class="form-control" 
+          placeholder="Nombre del producto" 
+          required />
+      </div>
+  
+      <div class="form-group">
+        <label for="descripcion">Descripción:</label>
+        <textarea 
+          id="descripcion" 
+          name="descripcion" 
+          [(ngModel)]="product.descripcion" 
+          class="form-control" 
+          placeholder="Descripción del producto" 
+          required></textarea>
+      </div>
+  
+      <div class="form-group">
+        <label for="colores">Colores:</label>
+        <input 
+          type="text" 
+          id="colores" 
+          name="colores" 
+          [(ngModel)]="product.colores" 
+          class="form-control" 
+          placeholder="Colores del producto (separados por coma)" 
+          required />
+      </div>
+  
+      <button type="submit" class="btn btn-primary">Agregar Producto</button>
+    </form>
+  </div>
+  

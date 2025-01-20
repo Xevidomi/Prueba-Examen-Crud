@@ -1,0 +1,59 @@
+/* Contenedor principal de la lista de productos */
+.product-list {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título de la lista de productos */
+  .product-list h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo de la tabla */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  /* Encabezados de la tabla */
+  th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  /* Filas de la tabla */
+  td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Colores de las filas cuando se pasa el cursor */
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Estilo para los botones de Editar y Eliminar */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-right: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  
